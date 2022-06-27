@@ -149,6 +149,8 @@
 .row2column1 {
     width: 20%;
     background-color: brown;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .row2column2 {
@@ -167,7 +169,7 @@
 /*Level 5*/
 
 .row2column2rowcolumn {
-    width: 33.3%;
+    width: calc(100% / 3);
     height: 100%;
     background-color: black;
     float: left;
