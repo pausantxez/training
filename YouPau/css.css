@@ -1,0 +1,174 @@
+/* Level 0 */
+
+.body {
+    margin: 0;
+}
+/* Level 1 */
+
+.main {
+    display: block;
+    width: 100%;
+    background-color: rgb(155, 84, 221);
+}
+
+/* Level 2 */
+
+.row1 {
+    width: 100%;
+    height: 65px;
+
+}
+
+.row1 > * {
+    display: block;
+    float: left;
+    height: inherit;
+}
+
+.row2 {
+    width: 100%;
+    height: calc(100% - 105px);
+    background-color: rgb(255, 251, 246);
+}
+
+.row2 > * {
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.row3 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(159, 43, 226);
+
+}
+
+/* Level 3 */
+
+.row1column1 {
+    width: 20%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 65px;
+    width: 35%;
+    color: blueviolet;
+    float: left;
+}
+
+.lname {
+    font-size: 36px;
+    width: 65%;
+    font-family: fantasy;
+}
+
+.row1emptycolumn {
+    width: 5%;
+    background-color: white;
+    
+}
+
+.row1column2 {
+    width: 45%;
+    background-color: cyan;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 22px;
+    padding: 5px 35px;
+}
+
+.icon {
+    width: 20%;
+}
+.search {
+    font-size: 17px;
+    width: 80%;
+    height: 32px;
+    border: 0;
+}
+.row1column3 {
+    width: 12.5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+.iconText {
+    float: left;
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 4px 10px;
+    align-items: center;
+}
+.upload {
+    font-size: 16px;
+    display: block;
+    float: left;
+    color: white;
+}
+.uploadText {
+    font-size: 16px;
+    font-family: sans-serif;
+    display: block;
+    float: left;
+    justify-content: center;
+    color: white;
+    
+}
+.row1column4 {
+    width: 12.5%;
+    background-color: darkgoldenrod;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.login {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+.row2column1 {
+    width: 20%;
+    background-color: brown;
+}
+
+.row2column2 {
+    width: 80%;
+    background-color: chartreuse;
+}
+
+/*Level 4*/
+
+.row2column2row {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(251, 255, 30);
+}
+
+/*Level 5*/
+
+.row2column2rowcolumn {
+    width: 33.3%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
