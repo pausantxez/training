@@ -3,6 +3,7 @@
 .body {
     margin: 0;
 }
+
 /* Level 1 */
 
 .main {
@@ -16,7 +17,6 @@
 .row1 {
     width: 100%;
     height: 65px;
-
 }
 
 .row1 > * {
@@ -41,7 +41,6 @@
     width: 100%;
     height: 40px;
     background-color: rgb(159, 43, 226);
-
 }
 
 /* Level 3 */
@@ -69,7 +68,6 @@
 .row1emptycolumn {
     width: 5%;
     background-color: white;
-    
 }
 
 .row1column2 {
@@ -78,7 +76,6 @@
     justify-content: center;
     display: flex;
     align-items: center;
-
 }
 
 .searchBar {
@@ -92,12 +89,14 @@
 .icon {
     width: 20%;
 }
+
 .search {
     font-size: 17px;
     width: 80%;
     height: 32px;
     border: 0;
 }
+
 .row1column3 {
     width: 12.5%;
     justify-content: center;
@@ -105,6 +104,7 @@
     align-items: center;
     background-color: green;
 }
+
 .iconText {
     float: left;
     display: flex;
@@ -113,12 +113,14 @@
     padding: 4px 10px;
     align-items: center;
 }
+
 .upload {
     font-size: 16px;
     display: block;
     float: left;
     color: white;
 }
+
 .uploadText {
     font-size: 16px;
     font-family: sans-serif;
@@ -128,6 +130,7 @@
     color: white;
     
 }
+
 .row1column4 {
     width: 12.5%;
     background-color: darkgoldenrod;
@@ -135,6 +138,7 @@
     display: flex;
     justify-content: center;
 }
+
 .login {
     color: white;
     font-family: sans-serif;
@@ -153,12 +157,17 @@
     font-size: 20px;
 }
 
+.icons {
+    margin: 20px;
+    display: inline-block;
+}
+
 .row2column2 {
     width: 80%;
     background-color: chartreuse;
 }
 
-/*Level 4*/
+/* Level 4 */
 
 .row2column2row {
     width: 100%;
@@ -166,7 +175,7 @@
     background-color: rgb(251, 255, 30);
 }
 
-/*Level 5*/
+/* Level 5 */
 
 .row2column2rowcolumn {
     width: calc(100% / 3);
