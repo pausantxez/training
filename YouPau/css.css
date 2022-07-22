@@ -9,7 +9,7 @@
 .main {
     display: block;
     width: 100%;
-    background-color: rgb(155, 84, 221);
+    background-color: white;
 }
 
 /* Level 2 */
@@ -39,7 +39,7 @@
 
 .row3 {
     width: 100%;
-    height: 40px;
+    height: 22px;
     background-color: rgb(159, 43, 226);
 }
 
@@ -47,22 +47,23 @@
 
 .row1column1 {
     width: 20%;
-    background-color: yellow;
+    background-color: white;
     display: flex;
     align-items: center;
 }
 
 .logo {
     font-size: 65px;
-    width: 35%;
+    width: 30%;
     color: blueviolet;
     float: left;
 }
 
 .lname {
-    font-size: 36px;
+    font-size: 39px;
     width: 65%;
-    font-family: fantasy;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .row1emptycolumn {
@@ -72,7 +73,7 @@
 
 .row1column2 {
     width: 45%;
-    background-color: cyan;
+    background-color: white;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -81,13 +82,14 @@
 .searchBar {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 22px;
     padding: 5px 35px;
+    width: 450px;
 }
 
 .icon {
-    width: 20%;
+    width: 40px;
 }
 
 .search {
@@ -102,16 +104,17 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    background-color: green;
+    background-color: white;
 }
 
 .iconText {
     float: left;
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(144, 76, 207);
     border-radius: 10px;
     padding: 4px 10px;
     align-items: center;
+    cursor: pointer;
 }
 
 .upload {
@@ -133,7 +136,7 @@
 
 .row1column4 {
     width: 12.5%;
-    background-color: darkgoldenrod;
+    background-color: white;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -142,44 +145,103 @@
 .login {
     color: white;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     float: left;
     display: flex;
-    background-color: blueviolet;
+    background-color:rgb(144, 76, 207);
     border-radius: 10px;
     padding: 4px 10px;
+    cursor: pointer;
 }
 
 .row2column1 {
     width: 20%;
-    background-color: brown;
+    background-color:rgb(252, 250, 250);
     font-family: sans-serif;
     font-size: 20px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+.row2column1::-webkit-scrollbar {
+    width: 10px;
+}
+
+.row2column1::-webkit-scrollbar-thumb {
+    background: rgb(173, 169, 169); 
+    border-radius: 10px;
+  }
+
+.row2column1 > span {
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 78%;
+    display: block;
+    height: 25px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* .row2column1:hover and .row2column1::-webkit-scrollbar {
+    display: none;
+} */
 
 .icons {
-    margin: 20px;
-    display: inline-block;
+    margin: 15px 10px 5px;
+    display: block;
+    float: left;
+    cursor: pointer;
 }
 
+.hr {
+    display: block;
+    float: left;
+    border-color: black;
+    width: 95%;
+    margin: 15px 4px;
+}
+.seccion {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0px 15px;
+
+}
 .row2column2 {
     width: 80%;
-    background-color: chartreuse;
+    background-color: white;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+.row2column2::-webkit-scrollbar {
+    width: 13px;
+}
+
+.row2column2::-webkit-scrollbar-thumb {
+    background: rgb(173, 169, 169); 
+    border-radius: 10px;
+  }
 
 /* Level 4 */
 
 .row2column2row {
     width: 100%;
     height: 50%;
-    background-color: rgb(251, 255, 30);
+    background-color: white;
 }
 
 /* Level 5 */
-
 .row2column2rowcolumn {
     width: calc(100% / 3);
     height: 100%;
-    background-color: black;
+    background-color: white;
     float: left;
+    text-align: center;
+}
+.row2column2rowcolumn > img {
+    width: 75%;
+    margin-top: 10px;
 }
